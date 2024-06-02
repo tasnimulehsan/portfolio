@@ -1,0 +1,232 @@
+/* mobile-styles.css */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #1E1E1E;
+        color: #ffffff;
+        scroll-behavior: smooth;
+        font-family: Arial;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    header .logo img {
+        width: 100px;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    header .profile {
+        margin-top: 10px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .hero .intro {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero .aft-p {
+        font-size: 18px;
+    }
+
+    .hero .des {
+        font-size: 14px;
+    }
+
+    .hero .search-container {
+        margin-top: 10px;
+    }
+
+    .hero .ovt1 {
+        width: 180px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .hero .ovt2 {
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .hero .click {
+        font-size: 16px;
+    }
+
+    .hero .profile-pic img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-bottom: 10px solid #ff6600;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+
+    .nav-tabs {
+        height: 100px;
+        padding: 10px;
+    }
+
+    .nav-tabs ul {
+        padding-top: 20px;
+        margin: 0 10px;
+    }
+
+    .nav-tabs ul li a {
+        font-size: 20px;
+    }
+
+    .st-col {
+        font-size: 30px;
+    }
+
+    .about, .exp-box, .awards, .pfo, .cont, .footer {
+        margin: 20px;
+    }
+
+    .abt, .star, .my {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .ab-p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .abt h1 {
+        font-size: 24px;
+    }
+
+    .star span, .exp-box h1 {
+        font-size: 20px;
+    }
+
+    .my-des {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .line-gap {
+        padding-bottom: 20px;
+    }
+
+    #line {
+        height: .5px;
+    }
+
+    .two-box {
+        margin: 0 10px;
+    }
+
+    .aw h1 {
+        font-size: 24px;
+    }
+
+    .aw p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .aw-box-1, .aw-box-2 {
+        height: auto;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .port-but {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin: 2px;
+    }
+
+    .portfolio1, .portfolio2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .portfolio1 img, .portfolio2 img {
+        width: 150px;
+    }
+
+    .cont {
+        margin: 20px;
+    }
+
+    .form-container {
+        padding: 30px;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-group input, .form-group textarea {
+        width: 100%;
+    }
+
+    .ft-box {
+        padding: 50px 0;
+    }
+
+    .ft-logo {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .ft-menu a {
+        padding: 0 10px;
+    }
+
+    .cr {
+        margin-top: 20px;
+    }
+}
